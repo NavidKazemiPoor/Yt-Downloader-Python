@@ -19,13 +19,15 @@ A clean, modular, and user-friendly command-line YouTube downloader powered by [
 
 ## 📁 Project Structure
 
-````text
+```text
 youtube_downloader/
 ├── __init__.py
 ├── errors.py          # Network & filter error detection + messages
 ├── downloader.py      # Core YouTubeDownloader class
 ├── cli.py             # Command-line interface
 └── main.py            # Entry point
+```
+
 ---
 
 ## 📦 Requirements
@@ -92,4 +94,3 @@ Downloading... 45.2% | Speed: 3.2MiB/s | ETA: 00:12
 ...
 ✅ Download completed successfully!
 ```
-````
